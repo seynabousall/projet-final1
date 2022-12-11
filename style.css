@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Redressed;
+    src: url("./Redressed/Redressed-Regular.ttf");
+}
+@font-face {
+    font-family:Merriweather ;
+    src: url("./Merriweather/Merriweather-BlackItalic.ttf");
+}
+@font-face {
+    font-family:Merriweatherbold ;
+    src: url("./Merriweather/Merriweather-BoldItalic.ttf");
+}
+
+.ac-navbar{
+    background-color:rgba(100, 98,0 ,0,98) ;
+    font-family:"Merriweather";
+    box-shadow: 1px 1px 3px rgba(255, 255,255, 0.54);
+    z-index: 1000;
+}
+.ac-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out , border-color .3s ease;
+}
+.ac-navbar .nav-link:hover{
+padding-bottom: 20px;
+border-bottom-color: coral;
+}
+#facuil{
+    color:coral;
+}
+.btn{
+    color:coral;
+    border-color:coral;
+    transition: 0.5s;
+
+}
+.btn:hover,
+.btn:active{
+    color:#fff;
+    background-color: coral;
+}
+.btn-res{
+    font-family: "Merriweather";
+}
+.btn-com ,
+.btn-voir,
+.btn-envoyer{
+    font-family: "Merriweather";
+}
+.section{
+    background: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('./image/resto\ chic.jpg') center center no-repeat 
+    fixed;
+    height: 580px;
+    background-size: cover;
+}
+.section h1{
+    color: #fff;
+    font-family: "Redressed";
+    font-weight: bold;
+}
+.section p{
+    color: #fff;
+    font-family: "Merriweather";
+    font-size: 1rem;
+}
+ h3{
+    font-family: "Merriweatherbold";
+    text-align: center;
+    
+}
+.specialite,
+.form{
+    background: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('./image/Resto3.jpg') center center no-repeat 
+    fixed;
+    height: 800px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.form{
+    height: 500px;
+    padding-top: 30px;
+}
+.h4{
+    font-family:"Merriweather" ;
+}
+.F{
+    color: coral;
+}
+.specialite .card{
+    height: 300px;
+    cursor: pointer;
+}
+.specialite img{
+    height: 200px;
+    padding: 10px 10px 0px 10px;
+    border-radius:100px 10px ;
+    cursor: pointer;
+}
+.propos .card-body{
+    font-family: "Merriweatherbold";
+    font-size: 1rem;
+}
+.delice .card{
+    height: 300px;
+    box-shadow: 2px 2px 0px 3px #49393963;
+    cursor: pointer;
+}
+.delice img{
+    height: 200px;
+    padding: 10px 10px 0px 10px;
+    border-radius:100px 10px ;
+    cursor: pointer;
+}
+.propos .card-body{
+    font-family: "Merriweatherbold";
+    font-size: 1rem;
+}
+h3{
+    font-family: "redressed";
+    font-size: 50px;
+}
+.delice h5{
+    font-family: "redressed";
+    font-size: 30px;
+}
+h5{
+    font-family: "redressed";
+    font-size: 25px;
+}
+.delice{
+    padding-top: -10px;
+}
+.delice i:hover{
+    color: coral;
+}
+.specialite i:hover{
+    color: coral;
+}
+.btn-voir{
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+h2{
+    font-family: "merriweather";
+    color: rebeccapurple;
+}
+.btn-envoyer{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.btn-envoyer{
+    color: white;
+    border-color:rebeccapurple;
+    transition: 0.5s;
+
+}
+.btn-envoyer:hover,
+.btn-envoyer:active{
+    color:#fff;
+    background-color: rebeccapurple;
+}
+footer{
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.c{
+    color: black;
+    font-family: "merriweather";
+}
+footer td a{
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer td a:hover{
+    color:coral;
+}
+.pro{
+    margin-right: 10px;
+} 
+footer p{
+    border-top: 1px solid ;
+    width: 200%;
+    height: 40px;
+  padding: 20px 0 20px 300px;
+  font-size: small;
+}
+footer td i{
+    color:black;
+    background-color:  coral;
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.prix{
+    font-family: "merriweatherbold";
+    margin-left: 70%;
+    margin-top:-20%;
+}
+.del{
+    padding-top: 5%;
+}
